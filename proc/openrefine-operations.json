@@ -1,0 +1,157 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Universidad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "UNIVERSIDAD NACIONAL PEDRO RUIZ GALLO",
+          "UNIVERSIDAD NACIONAL PEDRO RUÍZ GALLO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UNIVERSIDAD NACIONAL PEDRO RUIZ GALLO"
+      },
+      {
+        "from": [
+          "UNIVERSIDAD NACIONAL DANIEL ALCIDES CARRIÓN",
+          "UNIVERSIDAD NACIONAL DANIEL ALCÍDES CARRIÓN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UNIVERSIDAD NACIONAL DANIEL ALCIDES CARRIÓN"
+      },
+      {
+        "from": [
+          "UNIVERSIDAD ANTONIO RUIZ DE MONTOYA",
+          "UNIVERSIDAD ANTONIO RUÍZ DE MONTOYA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UNIVERSIDAD ANTONIO RUIZ DE MONTOYA"
+      }
+    ],
+    "description": "Mass edit cells in column Universidad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Universidad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "UNIVERSIDAD PERUANA DE LAS AMÉRICAS S.A.C.",
+          "UNIVERSIDAD PERUANA DE LAS AMÉRICASS.A.C."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UNIVERSIDAD PERUANA DE LAS AMÉRICAS S.A.C."
+      }
+    ],
+    "description": "Mass edit cells in column Universidad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Universidad",
+          "expression": "value",
+          "columnName": "Universidad",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "UNIVERSIDAD SANTO DOMINGO DE GUZMÁN",
+                "l": "UNIVERSIDAD SANTO DOMINGO DE GUZMÁN"
+              }
+            },
+            {
+              "v": {
+                "v": "UNIVERSIDAD SANTO DOMINGO DE GUZMÁN S.A.C.",
+                "l": "UNIVERSIDAD SANTO DOMINGO DE GUZMÁN S.A.C."
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Universidad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "UNIVERSIDAD SANTO DOMINGO DE GUZMÁN",
+          "UNIVERSIDAD SANTO DOMINGO DE GUZMÁN S.A.C."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UNIVERSIDAD SANTO DOMINGO DE GUZMÁN"
+      }
+    ],
+    "description": "Mass edit cells in column Universidad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Universidad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "UNIVERSIDAD PERUANA DE CIENCIAS E INFORMÁTICA",
+          "UNIVERSIDAD PERUANA DE CIENCIAS E INFORMÁTICA S.A.C."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UNIVERSIDAD PERUANA DE CIENCIAS E INFORMÁTICA S.A.C."
+      },
+      {
+        "from": [
+          "UNIVERSIDAD PRIVADA ANTONIO GUILLERMO URRELO",
+          "UNIVERSIDAD PRIVADA ANTONIO GUILLERMO URRELO S.A.C."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UNIVERSIDAD PRIVADA ANTONIO GUILLERMO URRELO S.A.C."
+      },
+      {
+        "from": [
+          "ASOCIACIÓN CIVIL UNIVERSIDAD CATÓLICA DE TRUJILLO BENEDICTO XVI",
+          "UNIVERSIDAD CATÓLICA DE TRUJILLO BENEDICTO XVI"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UNIVERSIDAD CATÓLICA DE TRUJILLO BENEDICTO XVI"
+      },
+      {
+        "from": [
+          "UNIVERSIDAD SEÑOR DE SIPÁN",
+          "UNIVERSIDAD SEÑOR DE SIPÁN S.A.C."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UNIVERSIDAD SEÑOR DE SIPÁN S.A.C."
+      }
+    ],
+    "description": "Mass edit cells in column Universidad"
+  }
+]
