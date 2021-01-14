@@ -6,7 +6,7 @@ Los datos originales se guardan en los archivos:
 
 - Datos abiertos:
   - `orig/Licenciamiento Institucional_6.csv`  (datos)
-  - `Licenciamiento Institucional - Diccionario_0.pdf` (documentación)
+  - `orig/Licenciamiento Institucional - Diccionario_0.pdf` (documentación)
 - Extracción manual:
   - `orig/20210114-tablas-licenciamiento-sunedu.csv`
 
